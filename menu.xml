@@ -1,0 +1,70 @@
+<menu>
+    <menuitem label='Home'>
+        <icon>fa:home fa-fw</icon>
+        <menu>
+            <menuitem label='Início'>
+                <icon>fa:life-ring fa-fw</icon>
+                <action>WelcomeView</action>
+            </menuitem>
+            
+            <menuitem label='Aprenda'>
+                <icon>fa:book fa-fw</icon>
+                <action>LearnView</action>
+            </menuitem>
+            
+            <menuitem label='Template'>
+                <icon>fa:desktop fa-fw</icon>
+                <action>TemplateView</action>
+            </menuitem>
+            
+            <menuitem label='Construa'>
+                <icon>fa:magic fa-fw</icon>
+                <action>BuildView</action>
+            </menuitem>
+            <menuitem label='Basico'>
+                <icon>fa:magic fa-fw</icon>
+                <action>TestView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    <menuitem label='Configuração'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Ver módulos'>
+                <icon>fa:cube fa-fw</icon>
+                <action>SystemModulesCheckView</action>
+            </menuitem>
+            
+            <menuitem label='Setup PHP'>
+                <icon>fa:code fa-fw</icon>
+                <action>SystemPHPInfoView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    <menuitem label='Basico'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Template Basico'>
+                <icon>fa:cube fa-fw</icon>
+                <action>TemplateViewBasico</action>
+            </menuitem>
+            
+            <menuitem label='TemplateViewMask'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewMask</action>
+            </menuitem>
+            <menuitem label='TemplateViewPage'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewPage</action>
+            </menuitem>
+            <menuitem label='TemplateViewWindow'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewWindow</action>
+            </menuitem>
+            <menuitem label='TemplateViewSidePage'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewSidePage</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
