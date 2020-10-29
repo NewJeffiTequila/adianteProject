@@ -53,7 +53,7 @@
                 <icon>fa:code fa-fw</icon>
                 <action>TemplateViewMask</action>
             </menuitem>
-            <menuitem label='TemplateViewPage'>
+            <menuitem label='TemplateViewPage'> 
                 <icon>fa:code fa-fw</icon>
                 <action>TemplateViewPage</action>
             </menuitem>
@@ -64,6 +64,26 @@
             <menuitem label='TemplateViewSidePage'>
                 <icon>fa:code fa-fw</icon>
                 <action>TemplateViewSidePage</action>
+            </menuitem>
+            <menuitem label='PanelGroupView'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewPanelGroup</action>
+            </menuitem>
+            <menuitem label='TemplateViewScroll'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewScroll</action>
+            </menuitem>
+            <menuitem label='TemplateViewVbox'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewVbox</action>
+            </menuitem>
+            <menuitem label='TemplateViewQuestions'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewQuestions</action>
+            </menuitem>
+            <menuitem label='TemplateViewInfo'>
+                <icon>fa:code fa-fw</icon>
+                <action>TemplateViewInfo</action>
             </menuitem>
         </menu>
     </menuitem>
